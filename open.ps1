@@ -4,7 +4,7 @@ $startmode = '--start-fullscreen'
 $startPage1 = 'www.vg.no'
 $startPage2 = 'www.aftenposten.no'
 $startPage3 = 'www.aftenposten.no'
-$tartPage4 = 'www.vg.no'
+$StartPage4 = 'www.vg.no'
 
 Start-Process -FilePath $pathToChrome ('--new-window',  '--start-fullscreen', '--user-data-dir=c:/screen1','--window-position=0,1440', $startPage1)
 Start-Process -FilePath $pathToChrome ('--new-window',  '--start-fullscreen', '--user-data-dir=c:/screen2','--window-position=2560,1440', $startPage2)
